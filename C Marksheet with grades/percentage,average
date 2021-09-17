@@ -1,0 +1,34 @@
+#include<stdio.h>
+int main()
+{
+float python,BE,C_language,Ard,Average,percentage;
+printf("***MARKSHEET***\n");
+printf("Name : Aneela Ismail\n");
+printf("Roll no : Ap-19008\n");
+printf("Institute : IoT\n");
+printf("*******************MARKS******************\n");
+printf("Python Marks  :",python);
+scanf("%f",&python);
+printf("B.E Marks  : ",BE);
+scanf("%f",&BE);
+printf("C_langauage Marks  :",C_language);
+scanf("%f",&C_language);
+printf("Ard Marks  :",Ard);
+scanf("%f",&Ard);
+Average=(python+Ard+C_language+BE)/4;
+printf("Average %f: ",Average);
+percentage=(python+Ard+C_language+BE)/(400)*(100);
+printf("Percentage %f: ",percentage);
+if(percentage>=90)
+{printf("A Grade");}
+else if(percentage<=89&&percentage>=80)
+{printf("B Grade");}
+else if(percentage<=79&&percentage>=70)
+{printf("C Grade");}
+else if(percentage<=69&&percentage>=60)
+{printf("D Grade");}
+else if(percentage<=59&&percentage>=50)
+{printf("F Grade");}
+else
+{printf("Fail");}
+}
