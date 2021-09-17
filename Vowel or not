@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	char alphabate;
+	printf("Enter the alphabate   : ");
+	scanf("%c",&alphabate);
+	if(alphabate=='a')
+	{printf("THE ENTERED ALPHABATE IS VOWEL");}
+	else if(alphabate=='e')
+	{printf("THE ENTERED ALPHABATE IS VOWEL");}
+	 else if (alphabate=='i')
+	{printf("THE ENTERED ALPHABATE IS VOWEL");}
+	 else if(alphabate=='o')
+	{printf("THE ENTERED ALPHABATE IS VOWEL");
+	}
+	else if (alphabate=='u')
+	{printf("THE ENTERED ALPHABATE IS VOWEL");
+	}
+	else
+	{printf("THE GIVEN ALHPHABATE IS CONSTANT ");
+	}
+}
