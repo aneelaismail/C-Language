@@ -1,0 +1,39 @@
+#include<stdio.h>
+int main()
+
+{int a,b,c,d,e;
+printf("Enter the five digits   : ");
+scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+{
+if(a>b && a>c && a>d && a>e)
+{printf("\n%d Maxinum value",a);
+}
+else if(b>a && b>c && b>d && b>e)
+{printf("\n%d Maximum value",b);
+}
+else if(c>a && c>b && c>d && c<e)
+{printf("\n %d Maximum ",c);
+}
+else if(d>a && d>b && d>c && d>e)
+{printf("\n %d Maximum value ",d);
+}
+else if(e>a && e>b && e>c && e>d)
+{printf("\n %d Maximum value ",e);
+}
+else if(a<b && a<c && a<d && a<e)
+{printf("\n%d Minimum value",a);
+}}
+{
+if(b<a && b<c && b<d && b<e)
+{printf("\n%d Minimum value",b);
+}
+else if(c<a && c<b && c<d && c<e)
+{printf("\n %d Minimum ",c);
+}
+else if(d<a && d<b && d<c && d<e)
+{printf("\n %d Minimum value ",d);
+}
+else if(e<a && e<b && e<c && e<d)
+{printf("\n %d Minimum value ",e);
+}
+}}
