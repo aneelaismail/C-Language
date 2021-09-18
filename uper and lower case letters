@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	char x;
+	printf(" Enter the charachter :");
+	scanf("%c",&x);
+	if(x>='a'&& x<='z')
+	{printf(" The given character is lowercase letter");
+	}
+	else if(x>='A' && x<= 'Z')
+	{printf("The given character is Uppercase letter");
+	 } 
+	 else
+	{printf("The given input is invalid");
+	}
+}A
