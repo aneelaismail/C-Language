@@ -1,0 +1,19 @@
+#include<stdio.h>
+int age=20;
+void month(int age);
+void days (int age);
+int main()
+{
+	month(age);
+	days(age);
+}
+void month(int age)
+{
+
+	printf("The months are %d*12=%d\n",age,age*12);
+	
+}
+void days(int age)
+{
+	printf("The days are %d*365=%d\n",age,age*365);
+}
